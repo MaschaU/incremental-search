@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    background-color: black;
+}
+
+#search {
+    width: 360px;
+    margin: 0;
+    font-family: Georgia;
+    border-bottom: 3px solid white;
+}
+
+#search input {
+    width: 100%;
+    border: 1px #000 solid;
+    height: 30px;
+    line-height: 30px;
+    font-size: 20px;
+    color: white;
+    padding: 0 10px;
+    font-family: 'Poiret One', cursive;
+}
+
+em {
+    color: white;
+    padding: 10px;
+    display: block;
+}
+
+#results {
+    border: 1px #000 solid;
+    border-top: 0;
+    margin: -1px 0 0;
+    display: none;
+    color: white;
+}
+
+.result {
+    cursor: pointer;
+    padding: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 20px;
+    color: white;
+    font-family: 'Poiret One', cursive;
+}
+
+.result.highlighted {
+    background: hotpink;
+    color: black;
+}
+h1 {
+  color: white;
+  font-size: 50px;
+  font-family: 'Poiret One', cursive;
+}
